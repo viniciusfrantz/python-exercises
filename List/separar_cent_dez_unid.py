@@ -1,7 +1,7 @@
-# Programa para decompor numero em centenas dezenas e unidades
+# Programa para decompor numero em centenas, dezenas e unidades
 numero = int(input('Digite um número entre 0 e 1000:'))
 
-centena_str = dezena_str = unidade_str = ""
+centena_str = dezena_str = unidade_str = ''
 centena, resto = divmod(numero, 100)
 
 if centena == 1:
@@ -11,14 +11,14 @@ elif centena > 1:
 
 dezena, unidade = divmod(resto, 10)
 
-if dezena==1:
+if dezena == 1:
     dezena_str = '1 dezena'
-elif dezena>1:
+elif dezena > 1:
     dezena_str = f'{dezena} dezenas'
 
-if unidade==1:
+if unidade == 1:
     unidade_str = '1 unidade'
-elif unidade>1:
+elif unidade > 1:
     unidade_str = f'{unidade} unidades'
 
 if centena_str != '' and dezena_str != '' and unidade_str != '':
