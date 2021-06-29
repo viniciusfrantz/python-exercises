@@ -28,4 +28,4 @@ elif centena_str != '' and dezena_str != '' and unidade_str == '':
 elif centena_str == '' and dezena_str != '' and unidade_str != '':
     print(f'{dezena_str} e {unidade_str}')
 else:
-    print(f'{centena_str}{dezena_str} {unidade_str}')
+    print(f'{centena_str}{dezena_str}{unidade_str}')
